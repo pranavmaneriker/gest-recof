@@ -133,7 +133,7 @@ void rec_gest_image()   	//Records the actual gesture
     //fprintf("%d,%d\n",gest_arr[i][0],gest_arr[i][1]);
     line(result,Point(result.cols/2,result.rows/2),Point(result.cols/2+vec[1],result.rows/2+vec[0]),Scalar(255-i*8,255-i*8,255-i*8),1,4);
   }
-  //imwrite("img.png",result);  
+  imwrite("img.png",result);  
 }
 void save_callback(int position)
 {

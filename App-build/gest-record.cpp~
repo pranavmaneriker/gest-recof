@@ -11,7 +11,7 @@
 #include <sstream>	//string concatenation
 #include <dirent.h>    //count files
 
-#define FILTER 69,87,70,125,136,231    //HSV filter args
+#define FILTER 60,100,88,255,114,255    //HSV filter args
 #define MILS_BEFORE_GEST 100	       // Wait time before gesture starts recording
 #define GEST_TIME 1 		       //Time for which a gesture is recorded
 

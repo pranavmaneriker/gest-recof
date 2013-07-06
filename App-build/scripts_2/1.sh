@@ -1,2 +1,2 @@
 #!/bin/bash
-xdotool key ctrl+Up
+xdotool key ctrl+shift+r

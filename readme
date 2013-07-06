@@ -11,3 +11,4 @@ After obtaining the values, change the corresponding ones (#define FILTER1 etc) 
 Execute the build_all and the new filters will be implmented. A program will be added soon so it need not be done manually.
 
 
+Requirements: g++, opencv libs and xdotool
